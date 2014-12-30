@@ -6,7 +6,6 @@ A moinmoin wiki docker image.
 
 ```shell
 $ docker run -it -d  -p 80:80 \
-                    -v /opt/moin/data:/usr/local/share/moin/data \
                     --name=my_wiki \
                     eternnoir/moinmoin
 ```
