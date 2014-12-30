@@ -1,4 +1,4 @@
 docker-moinmoin
 ===============
 
-A moinmoin docker image.
+A moinmoin wiki docker image.
