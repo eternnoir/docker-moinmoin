@@ -38,7 +38,7 @@ RUN ln -s /etc/nginx/sites-available/moinmoin.conf \
   /etc/nginx/sites-enabled/moinmoin.conf
 RUN rm /etc/nginx/sites-enabled/default
 
-VOLUME /usr/local/share/moin/data
+VOLUME /usr/local/share/moin
 
 EXPOSE 80
 
